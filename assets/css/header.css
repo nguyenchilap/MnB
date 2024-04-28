@@ -1,0 +1,35 @@
+#header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+
+    .navbar {
+        background: var(--primary-linear-color);
+
+        .navbar-brand {
+            font-weight: 700;
+            color: white;
+            
+            .rabbit-MB-logo {
+                width: 40px;
+                height: 32px;
+            }
+        }
+
+        .nav-item {
+            &.active {
+                a {
+                    color: white;
+                }
+            }
+
+            a {
+                font-weight: 600;
+                color: black;
+            }
+        }
+    }
+}
