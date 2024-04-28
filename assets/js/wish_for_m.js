@@ -1,7 +1,7 @@
 (function() {
     const years = [];
     const wishes = WISHES;
-    const mainBackGroundImg = '/assets/imgs/MnB_1.HEIC';
+    const mainBackGroundImg = './assets/imgs/MnB_1.HEIC';
 
     function setYearOptions(numberOfYears) {
         const thisYear = new Date().getFullYear();
