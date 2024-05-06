@@ -16,16 +16,16 @@ html, body {
     flex-direction: column;
 
     .box {
-        height: 50%;
-        max-height: 400px;
+        height: 450px;
+        /* max-height: 400px; */
         position: relative;
         top: 10%;
     
         #numberOfDays {
             position: absolute;
             z-index: 4;
-            top: 15%;
-            right: 40%;
+            top: 74px;
+            right: 88px;
             font-size: 32px;
             font-family: monospace;
             font-weight: 800;
@@ -61,7 +61,7 @@ html, body {
 
 
 #heart {
-    height: 45%;
+    height: 200px;
     margin-left: auto;
     animation: 1.5s ease 0s infinite beat;
 }
