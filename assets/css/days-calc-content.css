@@ -24,8 +24,8 @@ html, body {
         #numberOfDays {
             position: absolute;
             z-index: 4;
-            top: 74px;
-            right: 88px;
+            top: 64px;
+            right: 80px;
             font-size: 32px;
             font-family: monospace;
             font-weight: 800;
